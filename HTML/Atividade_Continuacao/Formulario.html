@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulario</title>
+</head>
+<body>
+    <h2>Formulário de cadastro</h2>
+    <form method="post">
+        <div>
+        <label for="nome">Primeiro nome:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+        
+        <label for="sobrenome">Sobrenome:</label><br>
+        <input type="text" id="sobrenome" name="sobrenome"><br><br>
+        
+        <label for="cpf">CPF:</label><br>
+        <input type="number" id="cpf" name="cpf"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="dataNasc">Data de Nascimento:</label><br>
+        <input type="date" id="dataNasc" name="dataNasc"><br><br>
+
+        <label for="nomePai">Nome do Pai:</label><br>
+        <input type="text" id="nomePai" name="nomePai"><br><br>
+
+        <label for="nomeMae">Nome da Mãe:</label><br>
+        <input type="text" id="nomeMae" name="nomeMae"><br><br>
+        </div>
+
+        <label for="origem">Origem:</label><br>
+        <select id="origem" name="origem"> 
+            <option value="">-- Nenhum --</option>
+            <option value="web">Web</option>
+            <option value="jornal">Jornal</option>
+            <option value="redeSocial">Rede Social</option>
+            <option value="radio">Rádio</option>
+            <option value="tv">TV</option>
+        </select><br>
+
+        <h4>Você concorda com os termos de uso?</h4>
+        <input type="checkbox" name="" id=""> Sim
+        <input type="checkbox" name="" id=""> Não<br>
+
+        <h4>Aceita o envio de email?</h4>
+        <input type="checkbox" name="" id=""> Sim
+        <input type="checkbox" name="" id=""> Não
+    </form>
+</body>
+</html>

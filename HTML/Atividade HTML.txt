@@ -1,0 +1,45 @@
+Atividade HTML
+
+A.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Exemplos de cabeçalhos:</p>
+    <h1>Header 1</h1>
+    <h2>Header 2</h2>
+    <h3>Header 3</h3>
+    <h4>Header 4</h4>
+    <h5>Header 5</h5>
+    <h6>Header 6</h6>
+</body>
+</html>
+
+--------------------------------------------------------------------------
+
+B.
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <b>Algumas marcas (em bold por exemplo!!!)</b>
+    <i><p>Este parágrafo em itálico.</p></i>
+    <u><p>Parágrafo sublinhado...</p></u>
+    <p><big>Utilizando a marca big</big><small> e a marca small</small></p> 
+    <p>Mais uma marca que permite apresentar expresões do gênero x<sup>2</sup> e x<sub>2</sub></p>
+    <p>Exemplos de caracteres especiais: á à ã â ç é è õ</p>
+</body>
+</html>
+
+--------------------------------------------------------------------------
+

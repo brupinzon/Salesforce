@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon</title>
+</head>
+<body>
+    <h1>Pokémon</h1>
+    <form method="get">
+        <label for="nome">Nome do Pokemon:</label>
+        <br>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="tipo">Selecione o tipo:</label><br>
+        <select id="tipo" name="tipo">
+            <option value="1">Fogo</option>
+            <option value="2">Água</option>
+            <option value="3">Terra</option>
+            <option value="4">Ar</option>
+            <option value="5">Coração</option>
+        </select><br><br>
+
+        <label for="email">Email do Pokemon:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="dataNasc">Data de Nascimento:</label><br>
+        <input type="date" id="dataNasc" name="dataNasc"><br><br>
+
+        <label for="nivel">Nível do Pokemon:</label>
+        <br>
+        <input type="number" id="nivel" name="nivel"><br><br>
+
+        <label for="senha">Senha:</label><br>
+        <input type="password" id="senha" name="senha"><br><br>
+
+        <label for="senhaConf">Senha de confirmação:</label><br>
+        <input type="password" id="senhaConf" name="senhaConf"><br><br>
+
+        <label for="cidades">Cidade:</label><br>
+        <select id="cidade" name="cidade">
+            <option value="1">São Paulo</option>
+            <option value="2">Holambra</option>
+            <option value="3">Embu das Artes</option>
+            <option value="4">Campos do Jordão</option>
+            <option value="5">Campinas</option>
+        </select><br><br>
+
+        <label for="data"> Dia da Semana:</label><br>
+        <select id="data" name="data">
+            <option value="1">Segunda-Feira</option>
+            <option value="2">Terça-Feira</option>
+            <option value="3">Quarta-Feira</option>
+            <option value="4">Quinta-Feira</option>
+            <option value="5">Sexta-Feira</option>
+            <option value="6">Sábado</option>
+            <option value="7">Domingo</option>
+        </select><br><br>
+
+        <label for="msg">Digite sua mensagem:</label>
+        <textarea id="msg" name="msg" rows="6" cols="40"></textarea><br><br>
+
+        <p>Selecione uma das opções:</p>
+        <input type="radio" name="opcoes" value="1">Apex
+        <input type="radio" name="opcoes" value="2">SOQL
+        <input type="radio" name="opcoes" value="3">Trigger
+        <input type="radio" name="opcoes" value="4">POO
+
+        <p>Marque as opções do seu interesse:</p>
+        <input type="checkbox" name="interesses" value="musica">Musica
+        <input type="checkbox" name="interesses" value="game">Game
+        <input type="checkbox" name="interesses" value="comida">Comida
+        <input type="checkbox" name="interesses" value="dança">Dança
+        <input type="checkbox" name="interesses" value="Estudo">Estudo
+
+        <br><input type="submit">
+    </form>    
+</body>
+</html>

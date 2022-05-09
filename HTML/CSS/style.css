@@ -1,0 +1,28 @@
+    *{
+        margin: 0 auto;
+    }
+    /*
+    p{
+        background-color:blueviolet;
+        color:cornsilk;
+    }
+    .paragrafo{
+        background-color: black;
+        font-family: "Arial";
+        font-size: 15px;
+        font-style: italic;
+        font-variant: small-caps;
+    }*/
+    .container{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        background-color: bisque;
+        height: 100vh;
+        flex-wrap: wrap;
+    }
+    .container div{
+        background-color: blueviolet;
+        width: 150px;
+        height: 100px;
+    }
